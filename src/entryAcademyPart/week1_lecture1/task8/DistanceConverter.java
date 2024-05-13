@@ -1,4 +1,4 @@
-package entryAcademyPart.task8;
+package entryAcademyPart.week1_lecture1.task8;
 
 import java.util.Scanner;
 

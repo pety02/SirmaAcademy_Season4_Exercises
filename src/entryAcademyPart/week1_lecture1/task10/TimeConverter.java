@@ -1,4 +1,4 @@
-package entryAcademyPart.task10;
+package entryAcademyPart.week1_lecture1.task10;
 
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
