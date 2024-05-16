@@ -10,14 +10,10 @@ public class NumberFrom0To9WithWords {
         int number = Integer.parseInt(scanner.nextLine());
         if(number < 0) {
             System.out.println("too small");
-            return;
+        } else if (number > 9) {
+            System.out.println("too big");
+        } else {
+            System.out.println(numbersWithWords[number]);
         }
-        for(int i = 0; i < numbersWithWords.length; ++i) {
-             if (number == i) {
-                System.out.println(numbersWithWords[i]);
-                return;
-            }
-        }
-        System.out.println("too big");
     }
 }
