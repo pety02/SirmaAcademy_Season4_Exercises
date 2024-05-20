@@ -3,7 +3,7 @@ package entryAcademyPart.week1_lecture3.task6;
 import java.util.Scanner;
 
 public class SumOfVowels {
-    private static char[] vowels = new char[] {'a', 'e', 'i', 'o', 'u'};
+    private static final char[] vowels = new char[] {'a', 'e', 'i', 'o', 'u'};
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String word = scanner.nextLine();
