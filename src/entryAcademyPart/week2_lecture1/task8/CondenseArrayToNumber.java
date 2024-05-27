@@ -21,6 +21,5 @@ public class CondenseArrayToNumber {
     public static void main(String[] args) {
         int[] nums = new int[]{2,10,3};
         System.out.println(Arrays.toString(condense(nums)));
-
     }
 }
